@@ -1,0 +1,46 @@
+:root {
+    /* CSS HEX */
+    --dark-purple: #100367; 
+    --darkish-purple: #6b5ae9;
+    --light-purple: #ebaaff;
+    --light-blue: #7ecbff;
+    --lavender: #b79de6;
+}
+
+.container {
+    width: 100%;
+    border: 1px solid black;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 0px 0px 20px;
+    margin: 10px;
+
+    font-family: Roboto Condensed;
+}
+
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    background-color: white;
+    border-bottom: 1px solid black;
+
+    font-family: Gravitas One;
+}
+
+#headerBar {
+    position: sticky;
+    top: 0;
+
+    border-bottom: 1px solid var(--sunlit-clay);
+    height: 100px;
+    background-color: var(--mauve);
+}
+
+
+h2 {
+    font-weight: normal;
+    text-indent: 30px;
+}
