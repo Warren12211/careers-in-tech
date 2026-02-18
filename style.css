@@ -7,12 +7,62 @@
     --lavender: #b79de6;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
 .container {
-    width: 100%;
-    border: 1px solid black;
-    border-width: 0px 0px 1px 0px;
-    padding: 0px 0px 0px 20px;
-    margin: 10px;
+
+    /*  other css stuff  */
+    height: 300px;
+    width: 100vw;
+
+    padding: 20px;
+    
+
+    font-family: Roboto Condensed;
+
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+
+    display: flex;
+    gap: 4vw;
+
+
+}
+
+
+
+
+.card {
+
+    /*colours lelelelellelelelelele*/
+    background-color: rgb(220, 236, 253);
+
+
+    border: 1.5px solid rgb(73, 124, 168);
+    border-radius: 20px;
+
+
+    list-style-type: none;
+    padding: 20px;
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+
+
+}
+
+.card:nth-child(even) {
+    background-color: rgb(146, 175, 201);
+}
+
+
+
+h1 {
 
     font-family: Roboto Condensed;
 }
@@ -24,7 +74,7 @@
     justify-content: center;
     text-align: center;
     font-size: 60px;
-    background-color: white;
+    background-color: rgb(197, 216, 238);
     border-bottom: 1px solid black;
 
     font-family: Gravitas One;
@@ -40,7 +90,3 @@
 }
 
 
-h2 {
-    font-weight: normal;
-    text-indent: 30px;
-}
