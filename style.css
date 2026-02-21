@@ -10,6 +10,62 @@
 * {
     box-sizing: border-box;
 }
+<<<<<<< HEAD
+=======
+
+body {
+    margin: 0;
+}
+
+.container {
+
+    /*  other css stuff  */
+    height: 300px;
+    width: 100vw;
+
+    padding: 20px;
+    
+
+    font-family: Roboto Condensed;
+
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+
+    display: flex;
+    gap: 4vw;
+
+
+}
+
+
+
+
+.card {
+
+    /*colours lelelelellelelelelele*/
+    background-color: rgb(220, 236, 253);
+
+
+    border: 1.5px solid rgb(73, 124, 168);
+    border-radius: 20px;
+
+
+    list-style-type: none;
+    padding: 20px;
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+
+
+}
+
+.card:nth-child(even) {
+    background-color: rgb(146, 175, 201);
+}
+
+
+
+h1 {
+>>>>>>> cb74fd9c8945b797501cbe130162ec1c2e036506
 
 body {
     margin: 0;
@@ -27,7 +83,12 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+<<<<<<< HEAD
     font-size: 50px;
+=======
+    font-size: 60px;
+    background-color: rgb(197, 216, 238);
+>>>>>>> cb74fd9c8945b797501cbe130162ec1c2e036506
     border-bottom: 1px solid black;
 
     font-family: Gravitas One;
@@ -41,6 +102,7 @@ body {
 }
 
 
+<<<<<<< HEAD
 
 /* hero section */
 #heroContainer {
@@ -107,3 +169,5 @@ h1 {
 }
 
 
+=======
+>>>>>>> cb74fd9c8945b797501cbe130162ec1c2e036506
