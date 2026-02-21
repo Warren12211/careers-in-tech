@@ -7,40 +7,103 @@
     --lavender: #b79de6;
 }
 
-.container {
-    width: 100%;
-    border: 1px solid black;
-    border-width: 0px 0px 1px 0px;
-    padding: 0px 0px 0px 20px;
-    margin: 10px;
+* {
+    box-sizing: border-box;
+}
 
-    font-family: Roboto Condensed;
+body {
+    margin: 0;
 }
 
 
-#title {
+
+
+
+
+/* title bar */
+
+#headerText {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 60px;
-    background-color: white;
+    font-size: 50px;
     border-bottom: 1px solid black;
 
     font-family: Gravitas One;
 }
 
 #headerBar {
-    position: sticky;
-    top: 0;
-
+    background-color: ;
+    
     border-bottom: 1px solid var(--sunlit-clay);
     height: 100px;
-    background-color: var(--mauve);
 }
 
 
-h2 {
-    font-weight: normal;
-    text-indent: 30px;
+
+/* hero section */
+#heroContainer {
+    height: 600px;
+    width: 100vw;
+
+    border: 1px solid black;
 }
+
+
+/* carousel */
+.carousel-container {
+
+    /*  other css stuff  */
+    height: fit-content;
+    width: 100vw;
+
+    padding: 20px;
+    
+
+    font-family: Roboto Condensed;
+
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+
+    display: flex;
+    gap: 4vw;
+
+}
+
+.carousel-card {
+
+    /*colours lelelelellelelelelele*/
+    background-color: rgba(220, 236, 253, 0.6);
+    background-image: url(assets/bg1.png);
+
+    background-blend-mode: lighten;
+
+    height: max-content;
+
+    border: 1.5px solid rgb(73, 124, 168);
+    border-radius: 20px;
+
+
+    list-style-type: none;
+    padding: 20px;
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+
+
+}
+
+.card:nth-child(even) {
+    background-color: rgb(146, 175, 201, 0.6);
+}
+
+
+
+
+
+
+h1 {
+    font-family: Roboto Condensed;
+}
+
+
