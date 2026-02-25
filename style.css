@@ -9,6 +9,7 @@
 
 * {
     box-sizing: border-box;
+
 }
 
 body {
@@ -19,36 +20,50 @@ body {
 
 
 
+h1 {
+    font-family: Roboto Condensed;
+}
 
-/* title bar */
 
-#headerText {
+
+
+
+
+#headerBar {
+
     display: flex;
+    
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 50px;
+
     border-bottom: 1px solid black;
+    height: 100px;
 
     font-family: Gravitas One;
+    font-size: 50px;
+
 }
 
-#headerBar {
-    background-color: ;
-    
-    border-bottom: 1px solid var(--sunlit-clay);
-    height: 100px;
-}
 
 
 
 /* hero section */
-#heroContainer {
-    height: 600px;
-    width: 100vw;
+#heroImage {
 
-    border: 1px solid black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img.jpg);
+
+    height: 100px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
 }
+
+
+
 
 
 /* carousel */
@@ -56,7 +71,7 @@ body {
 
     /*  other css stuff  */
     height: fit-content;
-    width: 100vw;
+    width: 100%;
 
     padding: 20px;
     
@@ -74,14 +89,7 @@ body {
 .carousel-card {
 
     /*colours lelelelellelelelelele*/
-    background-color: rgba(220, 236, 253, 0.6);
-    background-image: url(assets/bg1.png);
-
-    background-blend-mode: lighten;
-
-    height: max-content;
-
-    border: 1.5px solid rgb(73, 124, 168);
+    border: 1px solid rgb(73, 124, 168);
     border-radius: 20px;
 
 
@@ -90,11 +98,6 @@ body {
     flex: 0 0 100%;
     scroll-snap-align: center;
 
-
-}
-
-.card:nth-child(even) {
-    background-color: rgb(146, 175, 201, 0.6);
 }
 
 
@@ -102,8 +105,7 @@ body {
 
 
 
-h1 {
-    font-family: Roboto Condensed;
-}
+
+
 
 
